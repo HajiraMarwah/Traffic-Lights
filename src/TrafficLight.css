@@ -1,0 +1,33 @@
+.traffic-light {
+    width: 100px;
+    height: 300px;
+    border: 10px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+  }
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .red {
+    background-color: #ff0000;
+  }
+  
+  .yellow {
+    background-color: #ffff00;
+  }
+  
+  .green {
+    background-color: #00ff00;
+  }
+  
+  .active {
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 60px #ff0000, 0 0 80px #ff0000, 0 0 100px #ff0000, 0 0 120px #ff0000, 0 0 140px #ff0000;
+  }
